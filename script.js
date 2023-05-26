@@ -2,7 +2,7 @@
 let pdf ;
 let canvas;
 let isPageRendering;
-let  pageRenderingQueue = null;
+let pageRenderingQueue = null;
 let canvasContext;
 let totalPages;
 let currentPageNum = 1;
@@ -29,7 +29,7 @@ function initEvents() {
 
 // init when window is loaded
 function initPDFRenderer() {
-    const url = 'pdfs/lesson 02 - missing header - font - image.pdf'; // replace with your pdf location
+    const url = 'pdfs/lesson 20 - pages 1 to 6 appear blank.pdf'; // replace with your pdf location
     // const cMapUrl = '/cmaps/';
     // const cMapPacked = true;
     let option  = { url};
